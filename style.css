@@ -1,0 +1,77 @@
+#container {
+    padding-top: 10px;
+    width: 700px;
+    height: 200px;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+input {
+    padding: 10px 25px;
+    border: none;
+    font-size: 14px;
+}
+
+#resultado{
+    font-weight: 800;
+}
+
+body{
+    background-color: var(--bg-cor);
+}
+
+.dark-mode {
+    --bg-cor: #000000;
+    --label-icon: url(./images/sol.png);
+}
+
+.mudar-tema {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    background-image: var(--label-icon);;
+    background-repeat: no-repeat;
+    padding: 67px;
+    cursor: pointer;
+}
+
+#btn {
+    display: none;
+}
+
+:root {
+    --label-icon: url(./images/lua.png);
+}
+
+.imgadd {
+    width: 30px;
+}
+
+.img {
+    width: 20px;
+}
+
+.icon-button {
+    border: none;
+    background-color: transparent;
+    padding: 8px 8px;
+}
+
